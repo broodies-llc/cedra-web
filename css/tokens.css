@@ -1,0 +1,46 @@
+/* Cedra · tokens · brief Fabiana §4 (sha 5f543473) · F6 etapa 1 */
+@font-face{font-family:"Marcellus";src:url("../fonts/marcellus-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-500-normal.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url("../fonts/instrument-sans-latin-600-normal.woff2") format("woff2");font-weight:600;font-style:normal;font-display:swap}
+
+:root{
+  color-scheme:dark;
+
+  --bg:#0E1420;
+  --raise:#172033;
+  --fg:#EEF0F4;
+  --muted:#A3ADBF;
+  --line:#283349;
+  --field-line:#5E6A85;
+  --gold:#E0A458;
+  --on-gold:#121212;
+  --wood:#C9B79F;
+  --error:#F2B8A0;
+  --ok:#8FCFA9;
+  --glow:rgba(224,164,88,.07);
+  --photo-title:#F6F1E9;
+
+  --display:"Marcellus",Georgia,"Times New Roman",serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs-body:16px;
+  --fs-small:14px;
+  --fs-kicker:11px;
+  --ls-kicker:.24em;
+  --fs-h1:clamp(38px,6.4vw,82px);
+  --fs-h2:clamp(30px,4.4vw,52px);
+  --fs-h3:clamp(19px,2vw,24px);
+  --lh-body:1.55;
+
+  --radius:3px;
+  --radius-pill:999px;
+  --shadow-photo:0 40px 80px -30px rgba(0,0,0,.95);
+  --tap:44px;
+  --wrap:1240px;
+  --gutter:max(16px,env(safe-area-inset-left,0px));
+
+  --t-hero-zoom:18s;
+  --t-title-in:1.1s;
+  --rise:26px;
+  --hover-scale:1.04;
+}
